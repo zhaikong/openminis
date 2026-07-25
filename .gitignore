@@ -66,8 +66,6 @@ Package.resolved
 .DS_Store
 
 # Environment and secrets
-.env
-.env.*
 
 # App Store Connect API keys
 fastlane/.env
@@ -132,3 +130,5 @@ deps/lame-3.100/**/*.la
 deps/lame-3.100/**/*.lai
 deps/lame-3.100/**/.libs/
 deps/lame-3.100/**/.deps/
+config.bat
+node_modules
