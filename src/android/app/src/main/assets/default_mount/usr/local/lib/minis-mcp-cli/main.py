@@ -28,6 +28,11 @@ published in /tmp/minis-mcp-daemon.port. info / add / remove / enable / disable
 stay pure-local (servers.json only) and never touch the daemon.
 """
 
+import utils.net
+import utils.clients
+import utils.http_session
+import utils.transport
+import utils.session
 import json
 import os
 import socket
